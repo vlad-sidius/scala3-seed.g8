@@ -3,7 +3,7 @@ A [Giter8][g8] template for simple scala 3.x project!
 ## Usage in SBT
 
 ```
-sbt new vlad-bystrov/scala3-seed.g8
+sbt new vlad-sidius/scala3-seed.g8
 ```
 
 Template license
