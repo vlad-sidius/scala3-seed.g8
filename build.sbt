@@ -1,6 +1,6 @@
 addCommandAlias("test", "g8Test")
 
-lazy val root = (project in file("."))
+lazy val root = rootProject
   .enablePlugins(ScriptedPlugin)
   .settings(
     name := "Simple Scala 3 Template",

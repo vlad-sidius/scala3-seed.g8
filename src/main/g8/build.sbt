@@ -10,7 +10,7 @@ ThisBuild / scalacOptions ++= Seq(
   "-feature"
 )
 
-lazy val root = (project in file("."))
+lazy val root = rootProject
   .settings(
     name := "$name;format="norm"$",
     libraryDependencies ++= backendDeps
